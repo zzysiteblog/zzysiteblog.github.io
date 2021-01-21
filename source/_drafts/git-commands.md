@@ -35,3 +35,17 @@ git clone 仓库地址 本地路径
 # 同步项目到Github
 
 打开本地的项目文件夹，右键打开Git bash。
+
+执行下面三行命令
+
+```shell
+git add .
+git commit -m '提交留言内容'
+git push -u origin 分支名称
+```
+
+`git add .`指加载项目文件夹内全部的文件
+
+`git commit -m '提交留言内容'` 指对这次改动的留言
+
+`git push -u origin 分支名称` 指合并代码并同步到指定分支中
