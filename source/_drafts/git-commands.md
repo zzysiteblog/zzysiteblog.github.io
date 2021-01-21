@@ -1,4 +1,7 @@
 ---
-title: git-commands
-tags:
+title: Git 命令学习笔记
+
+tags: ['Git', '命令']
 ---
+
+在我接触到Hexo的博客中，我也认识到了Git的强大。~~特别是可以用Git来偷老师课件~~
