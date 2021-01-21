@@ -31,3 +31,7 @@ git clone 仓库地址
 ```shell
 git clone 仓库地址 本地路径
 ```
+
+# 同步项目到Github
+
+打开本地的项目文件夹，右键打开Git bash。
