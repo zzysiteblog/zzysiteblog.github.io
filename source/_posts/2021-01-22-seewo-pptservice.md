@@ -8,7 +8,7 @@ tags: ['seewo', 'pptservice', '希沃', 'PPT小工具']
 
 # 系统配置要求
 + Windows 7 及以上版本系统
-+ Microsoft Office 2016
++ Microsoft Office 2016 或 WPS Office 最新版本
 
 # 安装
 
@@ -36,7 +36,7 @@ tags: ['seewo', 'pptservice', '希沃', 'PPT小工具']
 
 ![](https://cdn.jsdelivr.net/gh/zzysite/imgs@main/无标题.png)
 
-如出现不能显示的问题，请在希沃一体机停用WPS Office或者是运行我提供的希沃PPT小工具重启程序
+如出现不能显示的问题，请在希沃一体机运行我提供的希沃PPT小工具重启程序
 
 [Github镜像]('https://github.com/zzysite/seewoPPTServiceRestart/releases/download/1.1/seewoPPTServiceRestart.exe')
 
