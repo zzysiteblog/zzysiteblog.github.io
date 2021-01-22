@@ -29,3 +29,15 @@ tags: ['seewo', 'pptservice', '希沃', 'PPT小工具']
 6. 安装完成
 
 ![](https://cdn.jsdelivr.net/gh/zzysite/imgs@main/20210122230913.png)
+
+# 显示
+
+如不出意外，应该放映PPT课件就出现这样的界面
+
+![](https://cdn.jsdelivr.net/gh/zzysite/imgs@main/20210122231436.png)
+
+如出现不能显示的问题，请在希沃一体机停用WPS Office或者是运行我提供的希沃PPT小工具重启程序
+
+[Github镜像]('https://github.com/zzysite/seewoPPTServiceRestart/releases/download/1.1/seewoPPTServiceRestart.exe')
+
+[OneDrive镜像]('https://disk.zzysite.workers.dev/%E5%B8%8C%E6%B2%83%E7%9B%B8%E5%85%B3/PPT%E5%B0%8F%E5%B7%A5%E5%85%B7/%E9%87%8D%E5%90%AF%E8%84%9A%E6%9C%AC/seewoPPTServiceRestart.exe')
