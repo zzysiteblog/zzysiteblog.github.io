@@ -34,7 +34,7 @@ tags: ['seewo', 'pptservice', '希沃', 'PPT小工具']
 
 如不出意外，应该放映PPT课件就出现这样的界面
 
-![](https://cdn.jsdelivr.net/gh/zzysite/imgs@main/20210122231436.png)
+![](https://cdn.jsdelivr.net/gh/zzysite/imgs@main/无标题.png)
 
 如出现不能显示的问题，请在希沃一体机停用WPS Office或者是运行我提供的希沃PPT小工具重启程序
 
