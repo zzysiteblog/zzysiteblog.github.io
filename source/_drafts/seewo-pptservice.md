@@ -16,6 +16,16 @@ tags: ['seewo', 'pptservice', '希沃', 'PPT小工具']
 2. 鼠标滑动网页至最低下，找到希沃PPT小工具
 3. 点击“下载软件”
 
+![](https://cdn.jsdelivr.net/gh/zzysite/imgs@main/20210122230510.png)
+
 4. 打开安装包，点击“立即安装”
 
-5. 安装完成
+![](https://cdn.jsdelivr.net/gh/zzysite/imgs@main/20210122230735.png)
+
+5. 等待安装
+
+![](https://cdn.jsdelivr.net/gh/zzysite/imgs@main/20210122230849.png)
+
+6. 安装完成
+
+![](https://cdn.jsdelivr.net/gh/zzysite/imgs@main/20210122230913.png)
