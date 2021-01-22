@@ -12,7 +12,7 @@ tags: ['seewo', 'pptservice', '希沃', 'PPT小工具']
 
 # 安装
 
-1. 打开 [希沃易+官网](http://e.seewo.com) （http://e.seewo.com）
+1. 打开 [希沃易+官网](http://e.seewo.com)
 2. 鼠标滑动网页至最低下，找到希沃PPT小工具
 3. 点击“下载软件”
 
@@ -40,8 +40,4 @@ tags: ['seewo', 'pptservice', '希沃', 'PPT小工具']
 
 [Github镜像](https://github.com/zzysite/seewoPPTServiceRestart/releases/download/1.1/seewoPPTServiceRestart.exe)
 
-https://github.com/zzysite/seewoPPTServiceRestart/releases/download/1.1/seewoPPTServiceRestart.exe
-
 [OneDrive镜像](https://disk.zzysite.workers.dev/%E5%B8%8C%E6%B2%83%E7%9B%B8%E5%85%B3/PPT%E5%B0%8F%E5%B7%A5%E5%85%B7/%E9%87%8D%E5%90%AF%E8%84%9A%E6%9C%AC/seewoPPTServiceRestart.exe)
-
-https://disk.zzysite.workers.dev/%E5%B8%8C%E6%B2%83%E7%9B%B8%E5%85%B3/PPT%E5%B0%8F%E5%B7%A5%E5%85%B7/%E9%87%8D%E5%90%AF%E8%84%9A%E6%9C%AC/seewoPPTServiceRestart.exe
