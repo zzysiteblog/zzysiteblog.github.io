@@ -15,3 +15,11 @@ tags: ['Discord', 'Discord.py' , 'Developent', '开发环境']
 2. 等待自动安装
 
 > 注意：如没有去国外工具，请百度搜索如何更改pip镜像源为清华大学镜像源
+
+3. 完成
+
+# 申请Discord Bot Token
+
+1. 打开 [Discord Developer Portal](https://discord.com/developers/applications)
+
+2. 点击“New Application”
