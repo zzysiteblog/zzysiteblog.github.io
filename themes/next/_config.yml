@@ -39,7 +39,7 @@ custom_file_path:
 # See: https://theme-next.org/docs/getting-started/
 # ---------------------------------------------------------------
 
-favicon: /favicon.ico
+favicon: https://cdn.jsdelivr.net/gh/zzysite/imgs@main/image1.jpg
 
 # Show multilingual switcher in footer.
 language_switcher: false
