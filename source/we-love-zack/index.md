@@ -45,7 +45,7 @@ These are some screenshots from my server's general chat Channel
 
 ![](https://cdn.jsdelivr.net/gh/zzysiteblog/imgs@main//20210202231309.png)
 
-
+![](https://cdn.jsdelivr.net/gh/zzysiteblog/imgs@main//20210202231808.png)
 
 Zack, I tell to you a truth: I loved osu! Game server when I joined that server.
 
