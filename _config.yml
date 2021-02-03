@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com
+url: https://hentai233.cf
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -105,6 +105,9 @@ path: search.xml
 field: post
 format: html
 limit: 10000
+
+sitemap:
+  path: sitemap.xml
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
