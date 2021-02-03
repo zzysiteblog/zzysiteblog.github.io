@@ -172,7 +172,7 @@ site_state: true
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
   GitHub: https://github.com/zzysite || fab fa-github
-  E-Mail: mailto:admin@hentai233.cf || fa fa-envelope
+  E-Mail: mailto:zhiyuanzhong@outlook.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
   Twitter: https://twitter.com/zhiyuanzhong233 || fab fa-twitter
