@@ -1,6 +1,7 @@
 ---
 title: we love zack
 date: 2021-02-02 22:59:03
+comments: False
 ---
 
 Hey, zack!
