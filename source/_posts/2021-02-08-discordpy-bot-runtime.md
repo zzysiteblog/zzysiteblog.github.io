@@ -1,5 +1,5 @@
 ---
-title: Discord.py 机器人基础框架及申请bot token
+title: Discord.py 机器人基础框架
 date: 2021-02-08 14:29:02
 tags: ['discord.py', 'discord', 'bot', '机器人', '开发', 'development']
 ---
