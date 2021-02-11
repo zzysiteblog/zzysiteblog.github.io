@@ -16,6 +16,6 @@ Discord: MisakaNo#2975
 
 ## 兴趣爱好
 
-玩游戏，看番，编程，科学上网，聊天，睡觉
+玩游戏，看番，编程（Python、JavaScript、CSS、HTML），科学上网，聊天，睡觉
 
 ## 感谢您的到访！
