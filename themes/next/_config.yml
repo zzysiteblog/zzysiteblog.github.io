@@ -628,7 +628,7 @@ livere_uid: # <your_uid>
 # For more information: https://gitalk.github.io, https://github.com/gitalk/gitalk
 gitalk:
   
-  enable: true
+  enable: false
   
   github_id: zzysiteblog
   # 你博客的仓库地址, 如果你部署的话吗，如果没部署用任意一个github 仓库也行
