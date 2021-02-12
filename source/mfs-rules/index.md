@@ -23,7 +23,7 @@ English please scroll down for see the rules about English version!
 3. This server adheres to the "One China" principle
 4. Most channels of the server can speak Chinese and English, except for `#中文聊天-chinese-only`, `#英语聊天-english-only` and `#其他语言-other-languages`
 5. Please do not publish other server invitation links anywhere on the server and in private messages of members (inquired beforehand)
-6. NSFW, violence, and other inappropriate content is strictly prohibited on this server
+6. NSFW content is strictly prohibited on this server
 7. Please private message after obtaining member's consent
 8. This server NOT allowed politics or other controversial topics
 9. Obey the administrator’s instructions. If you don’t obey, you will be kicked out or even banned
