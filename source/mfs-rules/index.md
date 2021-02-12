@@ -13,7 +13,8 @@ English please scroll down for see the rules about English version!
 5. 请不要在服务器的任何地方和成员的私信（事先询问过的不算）内发布其他服务器邀请链接
 6. 本服务器严禁色情、暴力、等不适宜内容
 7. 请在征得成员的同意后私信
-8. 服从管理员的指令，如不服从，你将会被踢出、甚至是封禁
+8. 本服务器禁止政治或其他容易起争议的话题
+9. 服从管理员的指令，如不服从，你将会被踢出、甚至是封禁
 
 # English
 
@@ -22,6 +23,7 @@ English please scroll down for see the rules about English version!
 3. This server adheres to the "One China" principle
 4. Most channels of the server can speak Chinese and English, except for `#中文聊天-chinese-only`, `#英语聊天-english-only` and `#其他语言-other-languages`
 5. Please do not publish other server invitation links anywhere on the server and in private messages of members (inquired beforehand)
-6. Pornography, violence, and other inappropriate content is strictly prohibited on this server
+6. NSFW, violence, and other inappropriate content is strictly prohibited on this server
 7. Please private message after obtaining member's consent
-8. Obey the administrator’s instructions. If you don’t obey, you will be kicked out or even banned
+8. This server NOT allowed politics or other controversial topics
+9. Obey the administrator’s instructions. If you don’t obey, you will be kicked out or even banned
