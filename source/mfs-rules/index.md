@@ -26,4 +26,4 @@ English please scroll down for see the rules about English version!
 6. NSFW content is strictly prohibited on this server
 7. Please private message after obtaining member's consent
 8. This server NOT allowed politics or other controversial topics
-9. Obey the administrator’s instructions. If you don’t obey, you will be kicked out or even banned
+9. Obey the admin and mod’s instructions. If you don’t obey, you will be kicked out or even banned
