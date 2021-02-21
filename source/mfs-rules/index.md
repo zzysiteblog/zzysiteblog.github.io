@@ -8,7 +8,7 @@ English please scroll down for see the rules about English version!
 # 中文
 1. 请遵守Discord TOS
 2. 请友好的在服务器内进行交流，机器人命令请在`#机器人命令-bot-commands`发送
-3. 本服务器坚持“一个中国”原则
+3. 本服务器坚持“政治中立”原则
 4. 服务器的大部分频道都可以说中文和英文，除 `#中文聊天-chinese-only` 、 `#英语聊天-english-only` 、`#其他语言-other-languages`
 5. 请不要在服务器的任何地方和成员的私信（事先询问过的不算）内发布其他服务器邀请链接
 6. 本服务器严禁色情、暴力、等不适宜内容
@@ -19,8 +19,8 @@ English please scroll down for see the rules about English version!
 # English
 
 1. Please comply with Discord TOS
-2. Please communicate in the server friendly, please send robot commands in `#机器人命令-bot-commands`
-3. This server adheres to the "One China" principle
+2. Please communicate in the server friendly, please send bot's commands in `#机器人命令-bot-commands`
+3. This server adheres to the "Political neutrality" principle
 4. Most channels of the server can speak Chinese and English, except for `#中文聊天-chinese-only`, `#英语聊天-english-only` and `#其他语言-other-languages`
 5. Please do not publish other server invitation links anywhere on the server and in private messages of members (inquired beforehand)
 6. NSFW content is strictly prohibited on this server
