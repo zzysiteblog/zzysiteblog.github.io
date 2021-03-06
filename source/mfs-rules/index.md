@@ -18,12 +18,15 @@ English please scroll down for see the rules about English version!
 
 # English
 
-1. Please comply with Discord TOS
-2. Please communicate in the server friendly, please send bot's commands in `#机器人命令-bot-commands`
-3. This server adheres to the "Political neutrality" principle
-4. Most channels of the server can speak Chinese and English, except for `#中文聊天-chinese-only`, `#英语聊天-english-only` and `#其他语言-other-languages`
-5. Please do not publish other server invitation links anywhere on the server and in private messages of members (inquired beforehand)
-6. NSFW content is strictly prohibited on this server
-7. Please private message after obtaining member's consent
-8. This server NOT allowed politics or other controversial topics
-9. Obey the admin and mod’s instructions. If you don’t obey, you will be kicked out or even banned
+1. Please agree and follow the Discord ToS :bookmark:
+2. Do not send hate speech, be kind to the other members :speaking_head:
+3. This server adheres to the “Political neutrality” principle :eyes:
+4. You are allowed to speak both Chinese and English in all of the server's channel, except for #中文聊天-chinese-only, #英语聊天-english-only and #其他语言-other-languages 
+5. Advertisement of a community, server, or website is strictly prohibited unless you were given a permission by an Admin :bar_chart:
+6. NSFW content is strictly prohibited on this server :peach:
+7. Do not send/spoil your private message in the server without any permission from the person to do so :mailbox_with_mail:
+8. Do not spam :1234:
+9. Do not posts/memes containing jump scares or ear rapes :joy:
+10. Posting suspicious files for download is not allowed and can result in an immediate ban :thinking:
+
+Obey the admin's and mod’s instructions
