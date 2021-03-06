@@ -18,4 +18,7 @@ Discord: MisakaNo#2975
 
 玩游戏，看番，编程（Python、JavaScript、CSS、HTML），科学上网，聊天，睡觉
 
+## 交流社区
+Discord: [https://discord.gg/RzbGgKRZ](https://discord.gg/RzbGgKRZ)
+
 ## 感谢您的到访！
