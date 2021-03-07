@@ -17,6 +17,8 @@ English please scroll down for see the rules about English version!
 9. 请勿张贴含有暴力、恐慌或强奸的内容
 10. 禁止发布可疑文件以供下载，这可能会导致立即被管理员封禁
 
+请各位服从管理员的规定
+
 # English
 
 1. Please agree and follow the Discord ToS 
