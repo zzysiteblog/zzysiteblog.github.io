@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Discord 获取 bot token</title>
+    <url>/2021/02/08/discordbot-get-token/</url>
+    <content><![CDATA[<h2 id="准备材料"><a href="#准备材料" class="headerlink" title="准备材料"></a>准备材料</h2><ul>
+<li>能上到discord官网的电脑</li>
+<li>discord账号</li>
+</ul>
+<h2 id="申请bot-token"><a href="#申请bot-token" class="headerlink" title="申请bot token"></a>申请bot token</h2><ol>
+<li>打开<a href="https://discord.com/developers/applications">Discord开发者中心</a>，登录自己的discord账号</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/zzysiteblog/imgs@main//20210208175423.png"></p>
+<ol start="2">
+<li>点击 New Application 按钮新建一个应用</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/zzysiteblog/imgs@main//20210208175547.png"></p>
+<ol start="3">
+<li>输入应用名称</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/zzysiteblog/imgs@main//20210208175633.png"></p>
+<ol start="4">
+<li>切换到 bot 选项卡，点击 Add Bot 按钮</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/zzysiteblog/imgs@main//20210208175801.png"></p>
+<ol start="5">
+<li>点击 Yes, do it!</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/zzysiteblog/imgs@main//20210208175923.png"></p>
+<ol start="6">
+<li>在 token 处，点击 Copy 按钮复制 bot token，点击 Regenerate 重新生成 bot token</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/zzysiteblog/imgs@main//20210208180050.png"></p>
+<p>这样我们就拿到了discord官方的bot token了</p>
+]]></content>
+      <tags>
+        <tag>discord</tag>
+        <tag>discord.py</tag>
+        <tag>开发</tag>
+        <tag>development</tag>
+        <tag>bot</tag>
+        <tag>机器人</tag>
+        <tag>token</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Discord.py 机器人基础框架</title>
+    <url>/2021/02/08/discordpy-bot-runtime/</url>
+    <content><![CDATA[<p>在准备好Discord.py的开发环境之后，我们就可以写属于自己的一个Discord 机器人了。</p>
+<p>首先，我们先新建一个py文件，打开</p>
+<p>导入discord.py库</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> discord <span class="comment"># 导入discord基础库</span></span><br><span class="line"><span class="keyword">from</span> discord.ext <span class="keyword">import</span> commands <span class="comment">#导入discord.ext库中的commands指令集</span></span><br></pre></td></tr></table></figure>
+<p>设置客户端和机器人触发前缀，赋值到bot变量</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># command_prefix的字符串为触发前缀，不一定要是感叹号</span></span><br><span class="line">bot = commands.Bot(command_prefix=<span class="string">&quot;!&quot;</span>)</span><br></pre></td></tr></table></figure>
+<p>使用on_ready()方法，设定运行后的条件</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#设置命令类型为event</span></span><br><span class="line"><span class="meta">@bot.event</span></span><br><span class="line"><span class="keyword">async</span> <span class="function"><span class="keyword">def</span> <span class="title">on_ready</span>():</span></span><br><span class="line">    print(<span class="string">&#x27;The bot is ready!&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<p>最后在文件尾设置<code>bot.run()</code>方法，设置bot token让Discord 机器人运行</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 使用bot.run方法，设置token并运行</span></span><br><span class="line">bot.run(<span class="string">&#x27;bot token here&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<p>只要你的网络能访问discord的接口，我们就可以运行机器人了。</p>
+<p>下一篇文章我们来教大家如何申请discord的bot token</p>
+]]></content>
+      <tags>
+        <tag>discord</tag>
+        <tag>discord.py</tag>
+        <tag>开发</tag>
+        <tag>development</tag>
+        <tag>bot</tag>
+        <tag>机器人</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Discord.py 开发环境准备</title>
+    <url>/2021/02/08/discord-py-prepare/</url>
+    <content><![CDATA[<p>Discord作为全球最大的游戏玩家交流平台，它开放的机器人API能让我们很好地在discord上开发属于自己的机器人。可惜中文版教程在国内没有多少，或者说是已经过时的。希望我的教程能为您带来一丝帮助！</p>
+<h2 id="准备环境"><a href="#准备环境" class="headerlink" title="准备环境"></a>准备环境</h2><ul>
+<li>Python 3 任何版本 （建议Python 3.8.7）</li>
+<li>discord.py 库</li>
+</ul>
+<h2 id="安装python"><a href="#安装python" class="headerlink" title="安装python"></a>安装python</h2><p>请自行参阅python在您的系统的安装教程</p>
+<h2 id="安装discord-py库"><a href="#安装discord-py库" class="headerlink" title="安装discord.py库"></a>安装discord.py库</h2><p>Windows命令：</p>
+<figure class="highlight console"><table><tr><td class="code"><pre><span class="line">pip install discord.py</span><br></pre></td></tr></table></figure>
+<p>Linux命令</p>
+<figure class="highlight console"><table><tr><td class="code"><pre><span class="line">pip3 install discord.py</span><br></pre></td></tr></table></figure>
+<h2 id="安装代码编辑器"><a href="#安装代码编辑器" class="headerlink" title="安装代码编辑器"></a>安装代码编辑器</h2><p>编辑器以个人喜好为宜，个人使用的是VS Code</p>
+<p>接下来的教程我会以文章的形式发布，敬请期待！</p>
+]]></content>
+      <tags>
+        <tag>discord</tag>
+        <tag>discord.py</tag>
+        <tag>开发</tag>
+        <tag>development</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>希沃一体机的PPT小工具如何安装及显示</title>
+    <url>/2021/01/22/seewo-pptservice/</url>
+    <content><![CDATA[<p>在实际维护中，我发现学校的希沃一体机有一部分是没有安装希沃PPT小工具或是安装了无法显示。今天我以此文记录如何安装以及显示希沃的PPT小工具</p>
+<h1 id="系统配置要求"><a href="#系统配置要求" class="headerlink" title="系统配置要求"></a>系统配置要求</h1><ul>
+<li>Windows 7 及以上版本系统</li>
+<li>Microsoft Office 2016 或 WPS Office 最新版本</li>
+</ul>
+<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><ol>
+<li>打开 <a href="http://e.seewo.com/">希沃易+官网</a></li>
+<li>鼠标滑动网页至最低下，找到希沃PPT小工具</li>
+<li>点击“下载软件”</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/zzysite/imgs@main/20210122230510.png"></p>
+<ol start="4">
+<li>打开安装包，点击“立即安装”</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/zzysite/imgs@main/20210122230735.png"></p>
+<ol start="5">
+<li>等待安装</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/zzysite/imgs@main/20210122230849.png"></p>
+<ol start="6">
+<li>安装完成</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/zzysite/imgs@main/20210122230913.png"></p>
+<h1 id="显示"><a href="#显示" class="headerlink" title="显示"></a>显示</h1><p>如不出意外，应该放映PPT课件就出现这样的界面</p>
+<p><img src="https://cdn.jsdelivr.net/gh/zzysite/imgs@main/%E6%97%A0%E6%A0%87%E9%A2%98.png"></p>
+<p>如出现不能显示的问题，请在希沃一体机运行我提供的希沃PPT小工具重启程序</p>
+<p><a href="https://github.com/zzysite/seewoPPTServiceRestart/releases/download/1.1/seewoPPTServiceRestart.exe">Github镜像</a></p>
+<p><a href="https://disk.zzysite.workers.dev/%E5%B8%8C%E6%B2%83%E7%9B%B8%E5%85%B3/PPT%E5%B0%8F%E5%B7%A5%E5%85%B7/%E9%87%8D%E5%90%AF%E8%84%9A%E6%9C%AC/seewoPPTServiceRestart.exe">OneDrive镜像</a></p>
+]]></content>
+      <tags>
+        <tag>seewo</tag>
+        <tag>pptservice</tag>
+        <tag>希沃</tag>
+        <tag>PPT小工具</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Discord服务器的Ban和Kick到底有什么区别</title>
+    <url>/2021/01/20/discord-server-ban-kick-difference/</url>
+    <content><![CDATA[<p>简单和大家解释一下Ban和Kick到底有何区别。</p>
+<h2 id="Ban"><a href="#Ban" class="headerlink" title="Ban"></a>Ban</h2><p>Ban，封禁的意思</p>
+<p>如果在某个服务器被Ban，那么你就一辈子（除管理员人缘好，给你解封了）就无法重新加入那个服务器。</p>
+<h2 id="Kick"><a href="#Kick" class="headerlink" title="Kick"></a>Kick</h2><p>Kick，顾名思义就是踢的意思。</p>
+<p>这在Discord服务器算是一个中等级别的处罚。您可以在被踢服务器后重新加入服务器。但是记得要遵守规则，否则被Ban了就不好了</p>
+]]></content>
+      <tags>
+        <tag>Discord</tag>
+        <tag>Ban</tag>
+        <tag>Kick</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>希沃授课助手无法连接的解决方案</title>
+    <url>/2021/01/17/how-can-i-do-when-seewolink-cant-connect/</url>
+    <content><![CDATA[<h2 id="1-检查是否连接到班级Wifi或希沃授课助手提供的热点"><a href="#1-检查是否连接到班级Wifi或希沃授课助手提供的热点" class="headerlink" title="1.检查是否连接到班级Wifi或希沃授课助手提供的热点"></a>1.检查是否连接到班级Wifi或希沃授课助手提供的热点</h2><p>①班级热点：1.重启路由器   2.向班主任询问密码连接</p>
+<p>②授课助手热点：1.检查是否连接  2.检查系统防火墙状态</p>
+<h2 id="2-关闭防火墙："><a href="#2-关闭防火墙：" class="headerlink" title="2.关闭防火墙："></a>2.关闭防火墙：</h2><p>①如班级电脑是Windows 7，方法如下<br>单击左下角的开始菜单，选择控制面板，进入页面，将查看方式更改为大图标</p>
+<p>单击Windows防火墙，选择左侧的打开或关闭Windows防火墙，在家庭或工作和公用网络下方，均选择关闭Windows防火墙，点击确定就可以了</p>
+<p>①如班级电脑是Windows 10，方法如下<br>右键（触摸屏为长按）左下角的开始菜单，选择运行</p>
+<p>输入control，点击确定</p>
+<p>进入页面，将查看方式更改为大图标</p>
+<p>单击Windows Defender防火墙，选择左侧的启用或关闭Windows Defender防火墙，在家庭或工作和公用网络下方，均选择关闭Windows Defender防火墙，点击确定就可以了</p>
+<h2 id="3-暂时关闭360或其他的安全软件"><a href="#3-暂时关闭360或其他的安全软件" class="headerlink" title="3.暂时关闭360或其他的安全软件"></a>3.暂时关闭360或其他的安全软件</h2>]]></content>
+      <tags>
+        <tag>seewo</tag>
+        <tag>希沃</tag>
+        <tag>希沃授课助手</tag>
+        <tag>seewolink</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>jsdeliver CDN测试</title>
+    <url>/2021/01/16/jsdeliver-cdntest/</url>
+    <content><![CDATA[<p>misaka酱~<br><img src="https://cdn.jsdelivr.net/gh/zzysite/imgs@main/image0.jpg"></p>
+]]></content>
+      <tags>
+        <tag>jsdeliver</tag>
+        <tag>cdn</tag>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>网站域名列表</title>
+    <url>/2021/01/16/website-domain-list/</url>
+    <content><![CDATA[<p>请收藏以下域名，以免无法访问博客</p>
+<h1 id="翻墙域名"><a href="#翻墙域名" class="headerlink" title="翻墙域名"></a>翻墙域名</h1><p><a href="https://zzysiteblog.github.io/">https://zzysiteblog.github.io</a></p>
+<h1 id="非翻墙域名"><a href="#非翻墙域名" class="headerlink" title="非翻墙域名"></a>非翻墙域名</h1><p><a href="https://zzysiteblog.netlify.app/">https://zzysiteblog.netlify.app/</a><br><a href="https://zzysiteblog.vercel.app/">https://zzysiteblog.vercel.app/</a></p>
+]]></content>
+      <tags>
+        <tag>网站</tag>
+        <tag>域名</tag>
+      </tags>
+  </entry>
+</search>
