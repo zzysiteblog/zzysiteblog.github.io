@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>discord.py 机器人指令</title>
+    <url>/2021/03/07/discordpy-commands/</url>
+    <content><![CDATA[<p>上篇文章讲了discord.py机器人的基本框架，能成功让我们的机器人程序访问Discord API。但是没有机器人命令的机器人真的没意思。所以今天我们来教大家如何制作Discord机器人命令</p>
+<p>这是一个命令方法的结构</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">@bot.command() </span><span class="comment">#声明下面的方法是机器人命令</span></span><br><span class="line"><span class="keyword">async</span> <span class="function"><span class="keyword">def</span> 命令名称 (<span class="params">ctx</span>):</span></span><br><span class="line">    <span class="comment"># 执行命令</span></span><br></pre></td></tr></table></figure>
+<p>命令名称要求：和变量名称要求一样</p>
+<p>示例：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">@bot.command()</span></span><br><span class="line"><span class="keyword">async</span> <span class="function"><span class="keyword">def</span> <span class="title">test</span>(<span class="params">ctx</span>):</span></span><br><span class="line">    <span class="comment"># 执行test命令，向服务器频道发送消息</span></span><br><span class="line">    <span class="keyword">await</span> ctx.send(<span class="string">&#x27;test&#x27;</span>)</span><br></pre></td></tr></table></figure>]]></content>
+      <tags>
+        <tag>discord.py</tag>
+        <tag>discord</tag>
+        <tag>bot</tag>
+        <tag>机器人</tag>
+        <tag>开发</tag>
+        <tag>development</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Discord 获取 bot token</title>
     <url>/2021/02/08/discordbot-get-token/</url>
     <content><![CDATA[<h2 id="准备材料"><a href="#准备材料" class="headerlink" title="准备材料"></a>准备材料</h2><ul>
