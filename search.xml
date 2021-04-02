@@ -193,16 +193,4 @@
         <tag>测试</tag>
       </tags>
   </entry>
-  <entry>
-    <title>网站域名列表</title>
-    <url>/2021/01/16/website-domain-list/</url>
-    <content><![CDATA[<p>请收藏以下域名，以免无法访问博客</p>
-<h1 id="翻墙域名"><a href="#翻墙域名" class="headerlink" title="翻墙域名"></a>翻墙域名</h1><p><a href="https://zzysiteblog.github.io/">https://zzysiteblog.github.io</a></p>
-<h1 id="非翻墙域名"><a href="#非翻墙域名" class="headerlink" title="非翻墙域名"></a>非翻墙域名</h1><p><a href="https://zzysiteblog.netlify.app/">https://zzysiteblog.netlify.app/</a><br><a href="https://zzysiteblog.vercel.app/">https://zzysiteblog.vercel.app/</a></p>
-]]></content>
-      <tags>
-        <tag>网站</tag>
-        <tag>域名</tag>
-      </tags>
-  </entry>
 </search>
